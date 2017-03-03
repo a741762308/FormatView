@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FormatView">
+        <attr name="symbol_show" format="boolean" /><!-- 显示符号 -->
+        <attr name="symbol_style"  >
+            <enum name="dollar" value="0"/><!-- 美元-->
+            <enum name="rmb" value="1"/><!-- 人民币-->
+            <enum name="yen" value="2"/><!-- 日元-->
+            <enum name="won" value="3"/><!-- 韩元-->
+        </attr>
+        <attr name="symbol_color" format="color" /><!-- 符号颜色 -->
+        <attr name="symbol_size" format="dimension" /><!-- 符号大小 -->
+        <attr name="prefix_color" format="color" /><!-- 前缀颜色 -->
+        <attr name="prefix_size" format="dimension" /><!-- 前缀大小 -->
+        <attr name="suffix_color" format="color" /><!-- 后缀颜色 -->
+        <attr name="suffix_size" format="dimension" /><!-- 后缀大小 -->
+        <attr name="suffix_length" format="integer" /><!-- 后缀长度 -->
+        <attr name="money" format="float" /><!-- 金额 -->
+    </declare-styleable>
+
+    <color name="default_symbol_color">#FF0000</color>
+    <dimen name="default_symbol_size">14sp</dimen>
+    <color name="default_prefix_color">#FF0000</color>
+    <dimen name="default_prefix_size">18sp</dimen>
+    <color name="default_suffix_color">#FF0000</color>
+    <dimen name="default_suffix_size">10sp</dimen>
+    <integer name="default_suffix_length">2</integer>
+
+
+</resources>

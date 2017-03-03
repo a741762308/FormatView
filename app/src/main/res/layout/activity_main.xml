@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jsqix.dongqing.formattextdemo.MainActivity">
+
+    <com.dongqing.formatview.FormatView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:money="3.1415"
+        app:prefix_color="#FF0000"
+        app:prefix_size="25sp"
+        app:suffix_color="#666666"
+        app:suffix_length="2"
+        app:suffix_size="14sp"
+        app:symbol_color="#FF7F00"
+        app:symbol_show="true"
+        app:symbol_size="18sp"
+        app:symbol_style="rmb" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="￥0.00"
+        android:textSize="18sp" />
+</LinearLayout>
