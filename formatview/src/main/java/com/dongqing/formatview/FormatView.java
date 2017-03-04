@@ -103,7 +103,6 @@ public class FormatView extends TextView {
 
     public boolean isSymbolShow() {
         return symbolShow;
-
     }
 
     public void setSymbolShow(boolean symbolShow) {
@@ -178,8 +177,8 @@ public class FormatView extends TextView {
         return moneyText;
     }
 
-    public void setMoneyText(String moneyText) {
-        this.moneyText = moneyText;
+    public void setMoneyText(double moneyText) {
+        this.moneyText = moneyText+"";
         init();
     }
 
